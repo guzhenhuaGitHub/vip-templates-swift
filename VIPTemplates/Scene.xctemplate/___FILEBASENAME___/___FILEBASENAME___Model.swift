@@ -8,6 +8,17 @@
 
 import UIKit
 
-struct ___FILEBASENAMEASIDENTIFIER___ViewModel {
+enum ___FILEBASENAMEASIDENTIFIER___ {
 
+    enum <#Event#> {
+        struct Request {
+
+        }
+        struct Response {
+
+        }
+        struct ViewModel {
+
+        }
+    }
 }

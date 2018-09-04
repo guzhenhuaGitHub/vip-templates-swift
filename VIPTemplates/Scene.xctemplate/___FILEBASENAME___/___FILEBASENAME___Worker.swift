@@ -10,11 +10,4 @@ import UIKit
 
 class ___FILEBASENAMEASIDENTIFIER___Worker {
 
-
-    // MARK: - Business Logic
-
-    func doSomeWork() {
-
-        // TODO: Do the work
-    }
 }

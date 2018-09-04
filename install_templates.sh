@@ -3,10 +3,10 @@ set -eo pipefail
 IFS=$'\n\t'
 
 # Remove all existing files
-rm -fR ~/Library/Developer/Xcode/Templates/File\ Templates/ustwo\ VIP\ Templates
+rm -fR ~/Library/Developer/Xcode/Templates/File\ Templates/VIPTemplates
 
 # Create directory
-mkdir -p ~/Library/Developer/Xcode/Templates/File\ Templates/ustwo\ VIP\ Templates
+mkdir -p ~/Library/Developer/Xcode/Templates/File\ Templates/VIPTemplates
 
 # Copy all included templates to the templates directory 
-cp -R ustwo\ VIP\ Templates ~/Library/Developer/Xcode/Templates/File\ Templates/
+cp -R VIPTemplates ~/Library/Developer/Xcode/Templates/File\ Templates/
