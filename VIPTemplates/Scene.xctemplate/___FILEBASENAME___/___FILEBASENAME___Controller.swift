@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol ___VARIABLE_sceneName:identifier___DisplayLogic {
+protocol ___VARIABLE_sceneName:identifier___DisplayLogic: class {
 
 }
 

@@ -14,7 +14,7 @@ protocol ___VARIABLE_sceneName:identifier___PresentationLogic {
 
 class ___VARIABLE_sceneName:identifier___Presenter: ___VARIABLE_sceneName:identifier___PresentationLogic {
 
-    weak var viewController: ___VARIABLE_sceneName:identifier___Controller?
+    weak var viewController: ___VARIABLE_sceneName:identifier___DisplayLogic?
 
     // MARK: -
 }
