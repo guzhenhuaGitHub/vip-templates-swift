@@ -8,13 +8,13 @@
 
 import UIKit
 
-protocol ___FILEBASENAMEASIDENTIFIER___PresentationLogic {
+protocol ___VARIABLE_sceneName:identifier___PresentationLogic {
 
 }
 
-class ___FILEBASENAMEASIDENTIFIER___Presenter: ___FILEBASENAMEASIDENTIFIER___PresentationLogic {
+class ___VARIABLE_sceneName:identifier___Presenter: ___VARIABLE_sceneName:identifier___PresentationLogic {
 
-    weak var viewController: ___FILEBASENAMEASIDENTIFIER___Controller?
+    weak var viewController: ___VARIABLE_sceneName:identifier___Controller?
 
     // MARK: -
 }

@@ -8,13 +8,13 @@
 
 import UIKit
 
-protocol ___FILEBASENAMEASIDENTIFIER___RoutingLogic {
+protocol ___VARIABLE_sceneName:identifier___RoutingLogic {
 
 }
 
-class ___FILEBASENAMEASIDENTIFIER___Router: ___FILEBASENAMEASIDENTIFIER___RoutingLogic {
+class ___VARIABLE_sceneName:identifier___Router: ___VARIABLE_sceneName:identifier___RoutingLogic {
     
-    weak var viewController: ___FILEBASENAMEASIDENTIFIER___Controller?
+    weak var viewController: ___VARIABLE_sceneName:identifier___Controller?
 
     // MARK: -
 }

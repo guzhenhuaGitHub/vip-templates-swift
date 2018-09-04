@@ -125,5 +125,21 @@
 	<string>9</string>
 	<key>Summary</key>
 	<string>This generates a new scene using Uncle Bob&apos;s clean architecture.</string>
+	<key>Node</key>
+	<array>
+		<string>___FILEBASENAME___</string>
+	</array>
+	<key>Definitions</key>
+	<dict>
+		<key>___FILEBASENAME___</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>___FILEBASENAME___</string>
+			</array>
+			<key>Path</key>
+			<string>___FILEBASENAME___</string>
+		</dict>
+	</dict>
 </dict>
 </plist>

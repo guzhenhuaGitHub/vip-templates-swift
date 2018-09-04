@@ -8,15 +8,15 @@
 
 import UIKit
 
-protocol ___FILEBASENAMEASIDENTIFIER___DisplayLogic {
+protocol ___VARIABLE_sceneName:identifier___DisplayLogic {
 
 }
 
-class ___FILEBASENAMEASIDENTIFIER___Controller: UIViewController, ___FILEBASENAMEASIDENTIFIER___DisplayLogic {
+class ___VARIABLE_sceneName:identifier___Controller: UIViewController, ___VARIABLE_sceneName:identifier___DisplayLogic {
     
     // MARK: - Initialize 
-    var interactor: ___FILEBASENAMEASIDENTIFIER___BusinessLogic?
-    var router: ___FILEBASENAMEASIDENTIFIER___RoutingLogic?
+    var interactor: ___VARIABLE_sceneName:identifier___BusinessLogic?
+    var router: ___VARIABLE_sceneName:identifier___RoutingLogic?
     
     override init(nibName nibNameOrNil: String? = nil, bundle nibBundleOrNil: Bundle? = nil) {
         super.init(nibName: nil, bundle: nil)
@@ -30,11 +30,11 @@ class ___FILEBASENAMEASIDENTIFIER___Controller: UIViewController, ___FILEBASENAM
     // MARK: - Setup
     func setup() {
         let viewController = self
-        let interactor = ___FILEBASENAMEASIDENTIFIER___Interactor()
-        let presenter = ___FILEBASENAMEASIDENTIFIER___Presenter()
-        let router = ___FILEBASENAMEASIDENTIFIER___Router()
+        let interactor = ___VARIABLE_sceneName:identifier___Interactor()
+        let presenter = ___VARIABLE_sceneName:identifier___Presenter()
+        let router = ___VARIABLE_sceneName:identifier___Router()
         viewController.interactor = interactor
-        viewController.router = ___FILEBASENAMEASIDENTIFIER___Router()
+        viewController.router = ___VARIABLE_sceneName:identifier___Router()
         interactor.presenter = presenter
         presenter.viewController = viewController
         router.viewController = viewController
@@ -43,8 +43,8 @@ class ___FILEBASENAMEASIDENTIFIER___Controller: UIViewController, ___FILEBASENAM
     // MARK: - Routing
     
     // MARK: - Live Cycle
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
+    override func viewDidLoad() {
+        super.viewDidLoad()
     }
     
     // MARK: - <#Event#>

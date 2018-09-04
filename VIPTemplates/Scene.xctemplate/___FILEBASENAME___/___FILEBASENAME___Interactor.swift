@@ -8,14 +8,14 @@
 
 import UIKit
 
-protocol ___FILEBASENAMEASIDENTIFIER___BusinessLogic {
+protocol ___VARIABLE_sceneName:identifier___BusinessLogic {
 
 }
 
-class ___FILEBASENAMEASIDENTIFIER___Interactor: ___FILEBASENAMEASIDENTIFIER___BusinessLogic {
+class ___VARIABLE_sceneName:identifier___Interactor: ___VARIABLE_sceneName:identifier___BusinessLogic {
     
-    var presenter: ___FILEBASENAMEASIDENTIFIER___PresentationLogic?
-    let worker = ___FILEBASENAMEASIDENTIFIER___Worker()
+    var presenter: ___VARIABLE_sceneName:identifier___PresentationLogic?
+    let worker = ___VARIABLE_sceneName:identifier___Worker()
 
     // MARK: -
 }
