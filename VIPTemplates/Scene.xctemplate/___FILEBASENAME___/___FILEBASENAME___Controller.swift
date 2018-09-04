@@ -15,6 +15,7 @@ protocol ___VARIABLE_sceneName:identifier___DisplayLogic {
 class ___VARIABLE_sceneName:identifier___Controller: UIViewController, ___VARIABLE_sceneName:identifier___DisplayLogic {
     
     // MARK: - Initialize 
+
     var interactor: ___VARIABLE_sceneName:identifier___BusinessLogic?
     var router: ___VARIABLE_sceneName:identifier___RoutingLogic?
     
@@ -28,6 +29,7 @@ class ___VARIABLE_sceneName:identifier___Controller: UIViewController, ___VARIAB
     }
     
     // MARK: - Setup
+
     func setup() {
         let viewController = self
         let interactor = ___VARIABLE_sceneName:identifier___Interactor()
@@ -43,6 +45,7 @@ class ___VARIABLE_sceneName:identifier___Controller: UIViewController, ___VARIAB
     // MARK: - Routing
     
     // MARK: - Live Cycle
+
     override func viewDidLoad() {
         super.viewDidLoad()
     }

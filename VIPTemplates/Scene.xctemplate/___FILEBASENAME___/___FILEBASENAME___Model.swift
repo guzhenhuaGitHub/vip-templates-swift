@@ -11,6 +11,7 @@ import UIKit
 enum ___VARIABLE_sceneName:identifier___ {
 
     // MARK: Use cases
+
     enum <#Event#> {
         struct Request {
 
