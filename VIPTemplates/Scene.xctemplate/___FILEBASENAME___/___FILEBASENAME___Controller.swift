@@ -36,7 +36,7 @@ class ___VARIABLE_sceneName:identifier___Controller: UIViewController, ___VARIAB
         let presenter = ___VARIABLE_sceneName:identifier___Presenter()
         let router = ___VARIABLE_sceneName:identifier___Router()
         viewController.interactor = interactor
-        viewController.router = ___VARIABLE_sceneName:identifier___Router()
+        viewController.router = router
         interactor.presenter = presenter
         presenter.viewController = viewController
         router.viewController = viewController
